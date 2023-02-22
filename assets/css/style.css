@@ -1,3 +1,6 @@
+:root {
+  --swiper-theme-color: #ed1c24 !important;
+}
 html {
   padding: 0;
 }
@@ -239,6 +242,10 @@ header.header-fixed .middle {
   padding-top: 45px;
   padding-bottom: 45px;
 }
+.shop-background-custom {
+  padding-bottom: 32px;
+}
+
 .slick-item img {
   border-radius: 10px;
 }
@@ -351,4 +358,47 @@ a.main-bg-color.rounded-pill {
 }
 .copyright a img {
   height: 60px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-img {
+  max-width: 100% !important;
+  border-radius: 10px;
+}
+.swiper-backface-hidden .swiper-slide {
+  margin-right: 10px !important;
+}
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 15px;
+}
+.swiper-pagination-bullet {
+  height: 14px !important;
+  width: 14px !important;
+  border: 3px solid #ed1c24 !important;
+  opacity: 1 !important;
+  background: none !important;
+}
+.swiper-pagination-bullet-active {
+  background: #ed1c24 !important;
 }

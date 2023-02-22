@@ -81,6 +81,9 @@
   img[alt="Xem hệ thống Showroom"] ~ h3 a {
     font-size: 12px;
   }
+  .swiper-pagination-horizontal span:nth-of-type(2) {
+    display: none;
+  }
 }
 @media (min-width: 996px) {
   .nav-link strong {
