@@ -376,8 +376,7 @@ a.main-bg-color.rounded-pill {
 
 .swiper-slide img {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 374px;
   object-fit: cover;
 }
 
@@ -395,7 +394,7 @@ a.main-bg-color.rounded-pill {
 .swiper-pagination-bullet {
   height: 14px !important;
   width: 14px !important;
-  border: 3px solid #ed1c24 !important;
+  border: 2px solid #ed1c24 !important;
   opacity: 1 !important;
   background: none !important;
 }
